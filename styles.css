@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #1F2937;
+    color: white;
+    height: 450px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+li a {
+    text-decoration: none;
+    color: grey;
+}
+
+.info {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info .left {
+    text-wrap: wrap;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info .left h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Utility */
+.secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 8px 28px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.container-70 {
+    width: 70%;
+}
+
+.container-60 {
+    width: 60%;
+}
+
+.container-55 {
+    width: 55%;
+}
+
+.secondary-bg {
+    background-color: #E5E7EB;
+}
+
+.border {
+    border: 1px solid white;
+}
+
+/* Main Section */
+main {
+    flex: 1;
+}
+
+/* First Content */
+.content {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 1px solid black;
+}
+
+.container-60 h2 {
+    text-align: center;
+}
+
+.cards {
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+}
+
+.card {
+    width: 200px;
+    
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+
+.card p {
+    text-wrap: wrap;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Second Content */
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.container-55 h2 {
+    text-align: right;
+}
+
+/* Third Content */
+.cta {
+    background-color: #3882F6;
+    padding: 24px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cta h2 {
+    font-size: 24px;
+    color: white;
+}
+
+.cta p {
+    color: #E5E7EB;
+}
+
+/* Footer Section */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 15px;
+}
